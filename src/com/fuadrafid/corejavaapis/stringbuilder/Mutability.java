@@ -1,4 +1,4 @@
-package com.fuadrafid.stringbuilder;
+package com.fuadrafid.corejavaapis.stringbuilder;
 
 public class Mutability {
     public static void main(String[] args) {

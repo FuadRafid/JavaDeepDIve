@@ -1,4 +1,4 @@
-package com.fuadrafid.wrapperclasses;
+package com.fuadrafid.corejavaapis.wrapperclasses;
 
 public class Methods {
     public static void main(String[] args) {

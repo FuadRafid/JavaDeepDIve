@@ -1,4 +1,4 @@
-package com.fuadrafid.arraylist;
+package com.fuadrafid.corejavaapis.arraylist;
 
 import java.util.ArrayList;
 import java.util.List;

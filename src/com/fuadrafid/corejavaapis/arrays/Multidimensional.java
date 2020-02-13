@@ -1,4 +1,4 @@
-package com.fuadrafid.arrays;
+package com.fuadrafid.corejavaapis.arrays;
 
 public class Multidimensional {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.fuadrafid.string;
+package com.fuadrafid.corejavaapis.string;
 
 public class Immutability {
     public static void main(String[] args) {

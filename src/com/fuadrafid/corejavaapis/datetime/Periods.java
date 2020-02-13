@@ -1,4 +1,4 @@
-package com.fuadrafid.datetime;
+package com.fuadrafid.corejavaapis.datetime;
 
 import java.time.*;
 

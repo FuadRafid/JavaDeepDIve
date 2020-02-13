@@ -1,6 +1,5 @@
-package com.fuadrafid.wrapperclasses;
+package com.fuadrafid.corejavaapis.wrapperclasses;
 
-import java.io.OutputStream;
 import java.util.ArrayList;
 import java.util.List;
 
