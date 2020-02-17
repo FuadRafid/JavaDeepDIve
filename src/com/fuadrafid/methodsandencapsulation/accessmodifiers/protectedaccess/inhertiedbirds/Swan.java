@@ -1,6 +1,6 @@
-package com.fuadrafid.methodsandencapsulation.protectedaccess.inhertiedbirds;
+package com.fuadrafid.methodsandencapsulation.accessmodifiers.protectedaccess.inhertiedbirds;
 
-import com.fuadrafid.methodsandencapsulation.protectedaccess.birds.Bird;
+import com.fuadrafid.methodsandencapsulation.accessmodifiers.protectedaccess.birds.Bird;
 
 public class Swan extends Bird { // but subclass of bird
     public void swim() {

@@ -1,4 +1,4 @@
-package com.fuadrafid.methodsandencapsulation.protectedaccess.birds;
+package com.fuadrafid.methodsandencapsulation.accessmodifiers.protectedaccess.birds;
 
 public class BirdWatcher {
     public void watchBird() {

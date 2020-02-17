@@ -1,6 +1,6 @@
-package com.fuadrafid.methodsandencapsulation.protectedaccess.notbird;
+package com.fuadrafid.methodsandencapsulation.accessmodifiers.protectedaccess.notbird;
 
-import com.fuadrafid.methodsandencapsulation.protectedaccess.birds.Bird;
+import com.fuadrafid.methodsandencapsulation.accessmodifiers.protectedaccess.birds.Bird;
 
 public class BirdWatcherFromAfar {
     public void watchBird() {

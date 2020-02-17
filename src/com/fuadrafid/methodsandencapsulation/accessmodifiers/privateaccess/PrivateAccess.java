@@ -1,4 +1,4 @@
-package com.fuadrafid.methodsandencapsulation.privateaccess;
+package com.fuadrafid.methodsandencapsulation.accessmodifiers.privateaccess;
 
 public class PrivateAccess {
     public void makeNoise() {

@@ -1,4 +1,4 @@
-package com.fuadrafid.methodsandencapsulation.protectedaccess.birds;
+package com.fuadrafid.methodsandencapsulation.accessmodifiers.protectedaccess.birds;
 
 public class Bird {
     protected String text = "floating"; // protected access

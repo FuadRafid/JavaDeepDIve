@@ -1,7 +1,7 @@
-package com.fuadrafid.methodsandencapsulation.protectedaccess.notbird;
+package com.fuadrafid.methodsandencapsulation.accessmodifiers.protectedaccess.notbird;
 
 
-import com.fuadrafid.methodsandencapsulation.protectedaccess.inhertiedbirds.Goose;
+import com.fuadrafid.methodsandencapsulation.accessmodifiers.protectedaccess.inhertiedbirds.Goose;
 
 public class GooseWatcher {
     public void watch() {

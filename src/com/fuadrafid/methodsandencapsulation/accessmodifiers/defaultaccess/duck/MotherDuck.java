@@ -1,4 +1,4 @@
-package com.fuadrafid.methodsandencapsulation.defaultaccess.duck;
+package com.fuadrafid.methodsandencapsulation.accessmodifiers.defaultaccess.duck;
 
 public class MotherDuck {
     String noise = "quack";

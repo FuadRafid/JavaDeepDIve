@@ -1,6 +1,6 @@
-package com.fuadrafid.methodsandencapsulation.protectedaccess.inhertiedbirds;
+package com.fuadrafid.methodsandencapsulation.accessmodifiers.protectedaccess.inhertiedbirds;
 
-import com.fuadrafid.methodsandencapsulation.protectedaccess.birds.Bird;
+import com.fuadrafid.methodsandencapsulation.accessmodifiers.protectedaccess.birds.Bird;
 
 public class Goose extends Bird {
     public void helpGooseSwim() {

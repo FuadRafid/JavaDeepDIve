@@ -1,6 +1,6 @@
-package com.fuadrafid.methodsandencapsulation.defaultaccess.notduck;
+package com.fuadrafid.methodsandencapsulation.accessmodifiers.defaultaccess.notduck;
 
-import com.fuadrafid.methodsandencapsulation.defaultaccess.duck.MotherDuck;
+import com.fuadrafid.methodsandencapsulation.accessmodifiers.defaultaccess.duck.MotherDuck;
 
 public class BadCygnet {
     public void makeNoise() {

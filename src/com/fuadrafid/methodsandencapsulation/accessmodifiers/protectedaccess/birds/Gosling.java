@@ -1,4 +1,4 @@
-package com.fuadrafid.methodsandencapsulation.protectedaccess.birds;
+package com.fuadrafid.methodsandencapsulation.accessmodifiers.protectedaccess.birds;
 
 public class Gosling extends Bird { // extends means create subclass
     public void swim() {
