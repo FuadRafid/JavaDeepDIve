@@ -35,7 +35,7 @@ public class Formatting {
         //via date time object
         System.out.println(dateTime.format(shortDateTime));
         System.out.println(date.format(shortDateTime));
-        //System.out.println(time.format(shortDateTime));
+        System.out.println(time.format(shortDateTime));
 
         //different default date formats
         date = LocalDate.of(2020, Month.JANUARY, 20);

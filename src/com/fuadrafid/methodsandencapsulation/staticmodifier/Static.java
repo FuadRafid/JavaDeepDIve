@@ -10,7 +10,7 @@ public class Static {
     }
 
     public static void second() {
-       //System.out.println(name); // cannot access non static fields from static function
+       System.out.println(name); // cannot access non static fields from static function
     }
 
     public void third() {
@@ -18,8 +18,8 @@ public class Static {
     }
 
     public static void main(String args[]) {
-        //first();
+        first();// cannot call non static function from static context
         second();
-        //third(); // DOES NOT COMPILE, cannot call non static function from static function
+        third(); // DOES NOT COMPILE, cannot call non static function from static function
     }
 }
