@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Autoboxing {
     public static void main(String[] args) {
-        //Java converts primitives int wrapper needed, which is called autoboxing
+        //Java converts primitives into wrapper class when needed, which is called autoboxing
 
         List<Double> weights = new ArrayList<>();
         weights.add(50.5); // [50.5] autoboxed

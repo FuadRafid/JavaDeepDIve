@@ -10,6 +10,8 @@ public class Varags {
 
     public static void main(String[] args) {
         System.out.println(new Varags().walk2(0, 1,2,3));
+        System.out.println(new Varags().walk2(0, new int[] {1,2,3}));
         new Varags().walk2(0, null); // will throw NullPointerException
+        new Varags().walk2(0); // also valid
     }
 }

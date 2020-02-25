@@ -6,7 +6,7 @@ public class NullTest {
         Koala k = new Koala();
         System.out.println(k.count); // k is a Koala
         k = null;
-        System.out.println(k.count); // k is still a Koala, no NullPointerException
+        System.out.println(k.count); // k is still a Koala, just with a null initialization, no NullPointerException
 
         Koala.count = 4;
         Koala koala1 = new Koala();
