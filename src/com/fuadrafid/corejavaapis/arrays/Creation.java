@@ -33,7 +33,7 @@ public class Creation {
         String[] strings = { "stringValue" };
         Object[] objects = strings;
         String[] againStrings = (String[]) objects;
-        againStrings[0] = new StringBuilder(); // DOES NOT COMPILE, because casted to String[]
+        //againStrings[0] = new StringBuilder(); // DOES NOT COMPILE, because casted to String[]
         objects[0] = new StringBuilder(); // careful! you cannot use StringBuilder functions.
     }
 }

@@ -7,6 +7,6 @@ import static java.util.Arrays.asList;
 public class StaticImports {
     public static void main(String[] args) {
         List<String> list = asList("one", "two");
-        Arrays.asList("one"); // DOES NOT COMPILE, because Arrays was not imported.
+//        Arrays.asList("one"); // DOES NOT COMPILE, because Arrays was not imported.
     }
 }

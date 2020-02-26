@@ -26,7 +26,7 @@ public class ReferenceTypes {
         //a long to a method taking an int parameter, you have to add a cast to explicitly say narrowing
         //is okay.
         r.longTest(12); //long can be called with int
-        r.intTest(12L); // int cannot be called with long
+        //r.intTest(12L); // int cannot be called with long
         r.intTest((int)12L); // but casting can be done to call with int
 
         r.fly(123); // calls by int
