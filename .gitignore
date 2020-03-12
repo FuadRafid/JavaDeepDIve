@@ -37,3 +37,4 @@ logs
 *.log
 /out/
 /.idea/
+/src/com/fuadrafid/codeforces/
