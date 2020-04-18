@@ -6,15 +6,15 @@ public class Example {
     }
 }
 
-abstract class Animal {
+abstract class Bird {
     protected int age;
     public void eat() {
-        System.out.println("Animal is eating");
+        System.out.println("Bird is eating");
     }
     public abstract String getName();
 }
 
-class Swan extends Animal {
+class Swan extends Bird {
     public String getName() {
         return "Swan";
     }
