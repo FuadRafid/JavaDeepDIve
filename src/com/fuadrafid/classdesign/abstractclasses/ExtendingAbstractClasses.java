@@ -34,6 +34,20 @@ class Lion extends BigCat {
     } // first concrete class of Animal, so must implement methods
 
     public void roar() {
-        System.out.println("The Lion lets out a loud ROAR!"); // first concrete class of BigCat, so must implement methods
+        System.out.println("                .,  ,.                       ,.\n" +
+                "              ,((')/))).                    (()\n" +
+                "             '(.(()( )\")),                ((())\n" +
+                "           \"___/,  \"/)))/).'               .))\n" +
+                "           '.-.   \"(()(()()/^             ( (\n" +
+                " >> ROAR << ' _)   /)()())(()'______.---._.' )\n" +
+                "             '. _ _  (()(()))..            ,'\n" +
+                "                   \\  ()) ())(             )\n" +
+                "                   ((                .     /_\n" +
+                "                   /       \\,     .-(     (_ )\n" +
+                "                 .'   \\/    )___.'   \\      )\n" +
+                "                /    \\-    /        _/'.-'  /\n" +
+                "               (,(,.'     ))       (_ /    /\n" +
+                "                  (,(,(,_)         (,(,(,_)");
+        // first concrete class of BigCat, so must implement methods
     }
 }

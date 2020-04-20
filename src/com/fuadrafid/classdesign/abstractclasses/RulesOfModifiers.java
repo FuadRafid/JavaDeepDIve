@@ -2,7 +2,7 @@ package com.fuadrafid.classdesign.abstractclasses;
 
 public class RulesOfModifiers {
     public static void main(String[] args) {
-
+        new SpermWhale().sing();
     }
 }
 
@@ -23,7 +23,18 @@ abstract class.
 abstract class Whale {
     protected abstract void sing();
 }
+class SpermWhale extends Whale{
 
+    @Override
+    protected void sing() {
+        System.out.println("        .\n" +
+                "       \":\"\n" +
+                "     ___:____     |\"\\/\"|\n" +
+                "   ,'        `.    \\  /\n" +
+                "   |  O        \\___/  |\n" +
+                " ~^~^~^~^~^~^~^~^~^~^~^~^~");
+    }
+}
 
 /** class HumpbackWhale extends Whale {
     * ! private void sing() {      -- DOES NOT COMPILE

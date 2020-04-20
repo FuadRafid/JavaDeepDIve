@@ -2,7 +2,8 @@ package com.fuadrafid.classdesign.abstractclasses;
 
 public class Example {
     public static void main(String[] args) {
-        new Swan();
+        Swan swan = new Swan();
+        System.out.println(swan.getName());
     }
 }
 

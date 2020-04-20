@@ -12,7 +12,9 @@ abstract methods.
 
 public class InterfaceInheritance {
     public static void main(String[] args) {
-
+        BeardedSeal beardedSeal = new BeardedSeal();
+        System.out.println("Bearded Seal no of whisker: "+ beardedSeal.getNumberOfWhiskers());
+        System.out.println("Bearded Seal tail length: "+beardedSeal.getTailLength());
     }
 }
 
@@ -33,6 +35,18 @@ interface Seal extends HasTail, HasWhiskers {
 abstract class HarborSeal implements HasTail, HasWhiskers {
 }
 
+class BeardedSeal implements HasTail, HasWhiskers{
+
+    @Override
+    public int getTailLength() {
+        return 10;
+    }
+
+    @Override
+    public int getNumberOfWhiskers() {
+        return 20;
+    }
+}
 /**
  *! class LeopardSeal implements HasTail, HasWhiskers { }
  *? DOES NOT COMPILE, the first concrete class to implement must interface
