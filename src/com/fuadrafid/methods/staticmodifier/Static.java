@@ -20,6 +20,6 @@ public class Static {
     public static void main(String args[]) {
         //first();// cannot call non static function from static context
         second();
-        //third(); // DOES NOT COMPILE, cannot call non static function from static function
+        //third(); -- DOES NOT COMPILE, cannot call non static function from static function
     }
 }

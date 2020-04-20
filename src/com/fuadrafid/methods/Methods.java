@@ -8,7 +8,7 @@ public class Methods {
     }
 
     public void walk1() {}
-    //default void walk2() {} // DOES NOT COMPILE
-    //void public walk3() {} // DOES NOT COMPILE
+    //default void walk2() {} -- DOES NOT COMPILE
+    //void public walk3() {} -- DOES NOT COMPILE
     void walk4() {}
 }

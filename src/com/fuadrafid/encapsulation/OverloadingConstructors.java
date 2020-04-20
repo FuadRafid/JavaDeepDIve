@@ -9,7 +9,7 @@ public class OverloadingConstructors {
 
         //this() has one special rule. If you choose to call it, the this() call
         //must be the first noncommented statement in the constructor.
-        //this(weight,"brown"); // DOES NOT COMPILE
+        //this(weight,"brown"); -- DOES NOT COMPILE
 
 
     }

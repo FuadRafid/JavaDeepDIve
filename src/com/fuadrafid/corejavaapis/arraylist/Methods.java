@@ -15,7 +15,7 @@ public class Methods {
 
         ArrayList<String> safer = new ArrayList<>();// can only keep String values
         safer.add("sparrow");
-        //safer.add(Boolean.TRUE); // DOES NOT COMPILE
+        //safer.add(Boolean.TRUE); -- DOES NOT COMPILE
 
         //add by index
         List<String> birds = new ArrayList<>();

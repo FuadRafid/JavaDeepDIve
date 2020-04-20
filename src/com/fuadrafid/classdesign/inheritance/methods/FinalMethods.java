@@ -17,11 +17,11 @@ class Bird {
     }
 }
 class Penguin extends Bird {
-//    public final boolean hasFeathers() { // DOES NOT COMPILE, because hasFeathers is final in parent and cannot be overridden
+//    public final boolean hasFeathers() { -- DOES NOT COMPILE, because hasFeathers is final in parent and cannot be overridden
 //        return false;
 //    }
 //
-//    public static final boolean hasBeak(){ // DOES NOT COMPILE, because hasBeak is final in parent and cannot be hidden
+//    public static final boolean hasBeak(){ -- DOES NOT COMPILE, because hasBeak is final in parent and cannot be hidden
 //        return true;
 //    }
 }

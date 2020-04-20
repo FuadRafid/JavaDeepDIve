@@ -53,10 +53,10 @@ class Panda extends Bear {
 //compiler error.
 
 class RedPanda extends Bear {
-//    public void sneeze() { // DOES NOT COMPILE
+//    public void sneeze() { -- DOES NOT COMPILE
 //        System.out.println("Panda bear sneezes quietly");
 //    }
-//    public static void hibernate() { // DOES NOT COMPILE
+//    public static void hibernate() { -- DOES NOT COMPILE
 //        System.out.println("Panda bear is going to sleep");
 //    }
 }

@@ -77,15 +77,15 @@ class Snake extends Reptile {
     }
 }
 
-//class Lizard extends Reptile {
-//    protected double getHeight() throws Exception { // DOES NOT COMPILE, because Exception is broader than InsufficientDataException
-//        return 2;
-//    }
-//
-//    protected int getLength() throws InsufficientDataException { // DOES NOT COMPILE, because parent does not throw any exception
-//        return 10;
-//    }
-//}
+/** class Lizard extends Reptile {
+  *! protected double getHeight() throws Exception {  -- DOES NOT COMPILE, because Exception is broader than InsufficientDataException
+  *!     return 2;
+  *! }
+
+  *!    protected int getLength() throws InsufficientDataException {  -- DOES NOT COMPILE, because parent does not throw any exception
+  *!      return 10;
+  *!    }
+  } */
 
 class Marsupial {
     public boolean isBiped() {

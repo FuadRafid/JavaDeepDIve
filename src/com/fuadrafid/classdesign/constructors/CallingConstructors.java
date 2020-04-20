@@ -1,4 +1,4 @@
-package com.fuadrafid.classdesign;
+package com.fuadrafid.classdesign.constructors;
 
 public class CallingConstructors {
     public static void main(String[] args) {

@@ -2,8 +2,8 @@ package com.fuadrafid.classdesign.abstractclasses;
 
 public class ExtendingAbstractClasses {
     public static void main(String[] args) {
-//      new Animal(); // WILL NOT COMPILE, cannot initiate an an abstract class
-//      new Eagle()(); // WILL NOT COMPILE, cannot initiate an an abstract class
+//      new Animal(); -- DOES NOT COMPILE, cannot initiate an an abstract class
+//      new Eagle()(); -- DOES NOT COMPILE, cannot initiate an an abstract class
         Lion lion = new Lion();
         System.out.println(lion.getName());
         lion.roar();
@@ -14,10 +14,12 @@ abstract class Animal {
     public abstract String getName();
 }
 
-//class Walrus extends Animal { // DOES NOT COMPILE, because the first concrete class
-//    // that extends an abstract class must implement the abstract methods
-//
-//}
+/**
+ *! class Walrus extends Animal { } -- DOES NOT COMPILE
+ *? Because the first concrete class that extends an abstract class
+ *? must implement the abstract methods
+*/
+
 abstract class Eagle extends Animal {
 } // no need to implement abstract methods when the child class is also abstract
 

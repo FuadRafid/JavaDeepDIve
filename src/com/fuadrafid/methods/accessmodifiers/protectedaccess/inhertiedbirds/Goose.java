@@ -11,7 +11,7 @@ public class Goose extends Bird {
 
     public void helpOtherGooseSwim() {
         Bird other = new Goose();
-//        other.floatInWater(); // DOES NOT COMPILE,
-//        System.out.println(other.text); // DOES NOT COMPILE
+//        other.floatInWater(); -- DOES NOT COMPILE,
+//        System.out.println(other.text); -- DOES NOT COMPILE
     }
 }
