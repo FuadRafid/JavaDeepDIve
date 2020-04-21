@@ -9,7 +9,6 @@ package com.fuadrafid.classdesign.interfaces;
 public class StaticMethods {
     public static void main(String[] args) {
         Bunny bunny = new Bunny();
-        System.out.print("Bunny jumps up to height: ");
         bunny.printDetails();
 
         Kangaroo kangaroo = new Kangaroo();
@@ -40,7 +39,29 @@ class Bunny implements Hop {
     }
 
     public void printDetails() {
-        System.out.println(Hop.getJumpHeight());
+        System.out.println("     / \\\n" +
+                "    / _ \\\n" +
+                "   | / \\ |\n" +
+                "   ||   || _______\n" +
+                "   ||   || |\\     \\\n" +
+                "   ||   || ||\\     \\\n" +
+                "   ||   || || \\    |\n" +
+                "   ||   || ||  \\__/\n" +
+                "   ||   || ||   ||\n" +
+                "    \\\\_/ \\_/ \\_//\n" +
+                "   /   _     _   \\\n" +
+                "  /               \\\n" +
+                "  |    O     O    |\n" +
+                "  |   \\  ___  /   |\n" +
+                " /     \\ \\_/ /     \\\n" +
+                "/  -----  |  -----  \\\n" +
+                "|     \\__/|\\__/     |\n" +
+                "\\       |_|_|       /\n" +
+                " \\_____       _____/\n" +
+                "       \\     /\n" +
+                "       |     |");
+
+        System.out.println("Bunny jumps up to height: "+Hop.getJumpHeight());
         /** To call the static method, a reference to the name of the interface must be used. */
     }
 }
@@ -52,7 +73,20 @@ class Bunny implements Hop {
 
 class Kangaroo implements Hop, Jump {
     public void printDetailsOkay(){
-        System.out.println("Kangaroo hops up to height: "+ Hop.getJumpHeight());
-        System.out.println("Kangaroo jumps up to height: "+ Jump.getJumpHeight());
+        System.out.println("                                                  _  _\n" +
+                "                                                 (\\\\( \\\n" +
+                "                                                  `.\\-.)\n" +
+                "                              _...._            _,-'   `-.\n" +
+                "\\                           ,'      `-._.---.,-'       .  \\\n" +
+                " \\`.                      ,'                               `.\n" +
+                "  \\ `-...__              /                           .   .:  y\n" +
+                "   `._     ``--..__     /                           ,'`---._/\n" +
+                "      `-._         ``--'                      |    /_\n" +
+                "          `.._                   _            ;   <_ \\\n" +
+                "              `--.___             `.           `-._ \\ \\\n" +
+                "                     `--<           `.     (\\ _/)/ `.\\/\n" +
+                "                         \\            \\     `");
+        System.out.println("                  Kangaroo hops up to height: "+ Hop.getJumpHeight());
+        System.out.println("                  Kangaroo jumps up to height: "+ Jump.getJumpHeight());
     }
 }
