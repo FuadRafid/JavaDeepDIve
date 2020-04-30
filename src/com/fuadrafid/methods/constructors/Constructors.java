@@ -1,4 +1,4 @@
-package com.fuadrafid.encapsulation;
+package com.fuadrafid.methods.constructors;
 
 public class Constructors {
 
@@ -27,4 +27,5 @@ class Rabbit3 {
 }
 class Rabbit4 {
     private Rabbit4() { }
+    String as;
 }

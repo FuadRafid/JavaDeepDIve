@@ -1,4 +1,4 @@
-package com.fuadrafid.encapsulation;
+package com.fuadrafid.methods.constructors;
 
 public class OverloadingConstructors {
     private String color;

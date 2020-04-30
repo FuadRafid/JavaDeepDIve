@@ -1,4 +1,4 @@
-package com.fuadrafid.encapsulation;
+package com.fuadrafid.methods;
 
 class MotherClass{
     public MotherClass(){
